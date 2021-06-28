@@ -43,7 +43,7 @@ void loop()
 }
 
 void rgb(int r, int g, int b) {
-  //params should eb 0 to 255!
+  //params should be 0 to 255!
   analogWrite(9, r);
   analogWrite(10, g);
   analogWrite(11, b);
